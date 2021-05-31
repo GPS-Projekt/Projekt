@@ -1,0 +1,17 @@
+Eslem Özdal       31.05.21
+
+Allgemeine Aufgabe:
+- GPS-System  java
+
+Spezifische Aufgabe:
+- GPS-Daten speichern/auslesen
+
+in planung:
+-Java NMEA APi
+-Log-Datei im csv-Format
+
+
+Technische Vorrausetzungen:
+- keine Datenbanken benutzen
+- GPS daten speichern/auslesen in Java
+
