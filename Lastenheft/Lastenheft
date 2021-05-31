@@ -1,0 +1,39 @@
+Lastenheft
+
+Einführung:
+
+
+Spezifikationen: 
+Erstellung einer Anwendung, die durch Anbindung einer GPS-Maus an einen PC, basierend auf mathematischen Berechnungen, 
+den (kürzesten) Weg zweier vom Nutzer eingegebenen Orte beschreibt sowie graphisch ausgibt. 
+Speichert den bereits gegangenen Weg in einer Datei und berechnet in Echtzeit den kürzesten Weg.
+
+
+Erforderliche Funktionen:
+Berechnung des (kürzesten) Weges durch Anbindung an das Back-End
+Sicherung von Benutzereinstellungen/Orten/kurzfristigen Daten durch Anbindung an die Datenspeicherung
+Erkennung angeschlossener Hardware sowie Auslesen und Empfangen der Daten durch Anbindung an die Kommunikationsschnittstelle
+Graphische Darstellung der Karte sowie des im Back-End berechneten Weges durch Anbindung an das Front-End
+Verarbeitung von Eingabe des Start- sowie Zielortes
+
+
+Technische Daten:
+Programmiersprache: Java
+Hardware: GPS-Maus, Computer mit Windows 10 und USB-Anschluss
+Nutzung von Github zur gemeinsamen Kollaboration mit dem Team
+
+
+Qualitätsanforderungen:
+Darstellung der mathematisch/geographisch kürzesten Strecke
+Wenig bis Keine durch den Nutzer ausgelösten Probleme/Bugs/Abstürze
+Intuitives User-Interface mit Eingabe des Start- sowie Zielortes
+
+
+Mitarbeitende:
+Dominic Sander, Thorben Diedrich, Eslem Özdal
+
+
+Zeitaufwand:
+
+
+Verweise/Quellen (?):
