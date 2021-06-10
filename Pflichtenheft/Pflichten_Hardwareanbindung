@@ -2,3 +2,4 @@
 - gxtx Library zum empfangen der Daten von seriellen Ports
 - NMEA JAVA API um leicht NMEA Datensätze auszulesen
 - ausgabe der relevanten Datensätze als ?String? (schnittstelle für Datenhaltung)
+- Funktion damit nur alle 30sec ein neuer gps wert weitergegeben wird
