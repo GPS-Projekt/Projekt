@@ -1,0 +1,11 @@
+GUI:
+
+-> Array  1+3 0=nord 1=ost
+    0 | 1   | 2 | 3   | 4      | 5   
+    B | N/E | L | N/E | Winkel | Entfernung 
+    
+    
+Hardware -> Datenspeicherung:
+
+    0 | 1   | 2 | 3   | 4      | (5)   
+    B | N/E | L | N/E | Winkel | (time?)
