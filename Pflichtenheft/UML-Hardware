@@ -1,0 +1,14 @@
+Erste Ideen:
+  Ist NMEA API überhaupt sinnvol oder overkill?
+
+  --------------------------------------
+  |         Hardware                   |
+  --------------------------------------
+  | - bool active                      |
+  | setComPort()                       |
+  | readStream()                       |
+  | toggleRead()                       |
+  |                                    |
+  --------------------------------------
+  
+  Plan: Ersten Prototypen auf dieser Basis erstellen dann entcheiden ob NMEA API nötig ist oder nicht.
