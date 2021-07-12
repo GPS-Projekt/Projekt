@@ -1,0 +1,8 @@
+Meeting Montag 12.07. 14h
+Anwesend: Özdal, Diedrich
+
+Hardware: Erster test mit rxtx erfolgreich. Noch offen: auswahl des commports, fehler bei der Ausgabe und Datenausgabe für Datenverwaltung
+Ziel für die nächste Woche: Ausgabe "säubern", ggf UML anpassen
+
+Datenverwaltung: Datenspeicherung per CSV geplant. Eingabewerte von Hardware enstprechend des gewählten Formats siehe Pflichten/Datenverteilung.
+Ziel für die nächste Woche: Ersten Prototyp erstellen.
