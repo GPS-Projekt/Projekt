@@ -44,9 +44,9 @@ public class Test {
 				if((byte) inputStream.read()=='$') break;
 			};
 			
-				do {
-					byteList.add((byte)inputStream.read());
-				}while((byte) inputStream.read() != '$');
+			do {
+				byteList.add((byte)inputStream.read());
+			}while((byte) inputStream.read() != '$');
 			
 			Byte[] arr = byteList.toArray(new Byte[0]);
 			byte[] bytes = new byte[arr.length];
