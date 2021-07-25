@@ -1,0 +1,11 @@
+Meeting 25.07 20:30h
+
+Anwesend: Özdal, Diedrich
+
+Hardware: Readmethode überarbeitet, Setupmethode erstellt noch offen: Automatische portwahl und Ausgabe
+
+Datenverarbeitung: Prototyp erstellt Datei wird erstellt und kann wieder ausgelesen werden
+
+Anpassungen für die nächste Woche: 
+ Änderung der Übebrgabe, statt einzelener Werte ein Array mit mehreren NMEA sätzen zum abspeichern
+ Ziel nächster Woche funktionierende Versionen und ggf zusammenführen und testen einer gemeinsamen Variante
