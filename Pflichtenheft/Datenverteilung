@@ -5,7 +5,7 @@ GUI:
     B | N/E | L | N/E | Winkel | Entfernung 
     
     
-Hardware -> Datenspeicherung:
 
-    0 | 1   | 2 | 3   | 4      | (5)   
-    B | N/E | L | N/E | Winkel | (time?)
+Neue Idee Hardware -> Datenspeicherung:
+
+String[] jeder eintrag ein NMEA Satz als String
