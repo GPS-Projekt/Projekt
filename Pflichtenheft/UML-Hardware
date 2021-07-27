@@ -1,14 +1,17 @@
 Erste Ideen:
-  Ist NMEA API überhaupt sinnvol oder overkill?
+  Ist NMEA API überhaupt sinnvol oder overkill? -> keine nmea api nur rxtx
 
   --------------------------------------
   |         Hardware                   |
   --------------------------------------
-  | - bool active                      |
-  | setComPort()                       |
-  | readStream()                       |
-  | toggleRead()                       |
+  |                                    |
+  | ArrayList<String> getPorts()       |
+  | SerialPort setupPort()             |
+  | String readFromPort()              |
   |                                    |
   --------------------------------------
   
-  Plan: Ersten Prototypen auf dieser Basis erstellen dann entcheiden ob NMEA API nötig ist oder nicht.
+  Problem: GPS Maus wählt automatisch com3 aber com3 harcoden ist keine gute Idee es fehlt ein weg den commport anhand des angeschlossenen Geräts zu wählen
+    - ggf friendlyname oder deviceID aber deviceID hardcoden ist nicht viel besser?
+    
+  Ausgabe anpassen auf String[]
