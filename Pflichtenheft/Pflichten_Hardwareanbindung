@@ -1,3 +1,3 @@
 (- automatische Identifizierung angeschlossener Hardware)
 - rxtx Library zum empfangen der Daten von seriellen Ports
-- ausgabe der relevanten Datensätze als String[] ein eintrag = ein NMEA satz größe vorerst 50 sätze
+- Ausgabe der relevanten Datensätze als String[] ein Eintrag = ein NMEA satz Größe vorerst 50 sätze
