@@ -1,5 +1,3 @@
-- automatische Identifizierung angeschlossener Hardware
+(- automatische Identifizierung angeschlossener Hardware)
 - rxtx Library zum empfangen der Daten von seriellen Ports
-- NMEA JAVA API um leicht NMEA Datensätze auszulesen
-- ausgabe der relevanten Datensätze als ?String? (schnittstelle für Datenhaltung)
-- Funktion damit nur alle 30sec ein neuer gps wert weitergegeben wird
+- ausgabe der relevanten Datensätze als String[] ein eintrag = ein NMEA satz größe vorerst 50 sätze
