@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.Enumeration;
+import java.util.Scanner;
 
 import gnu.io.*;
 
@@ -121,6 +122,7 @@ public class Hardware {
 		return output;
 	}
 	
+	
 	public static void main(String[]args) {
 		
 		Hardware hw = new Hardware();
@@ -153,6 +155,11 @@ public class Hardware {
 				}
 				
 				port3.close();
+				
+				//Solely to read the test output
+				Scanner sc = new Scanner(System.in);
+				sc.nextLine();
+				sc.close();
 				
 			} catch (PortInUseException e) {
 				e.printStackTrace();
