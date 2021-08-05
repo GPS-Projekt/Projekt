@@ -61,7 +61,7 @@ public class Hardware {
 				tmpPort.close();
 				
 				//Check for wanted expression
-				if(tmp.contains("$G")) {
+				if(tmp.contains("$GNTXT")||tmp.contains("$GPGSV")) {
 					return port;
 				}
 				
@@ -157,6 +157,7 @@ public class Hardware {
 				port3.close();
 				
 				//Solely to read the test output
+				
 				Scanner sc = new Scanner(System.in);
 				sc.nextLine();
 				sc.close();
